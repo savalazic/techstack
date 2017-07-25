@@ -6,7 +6,7 @@ export const Header = (props) => {
   const { textStyle, viewStyle } = styles;
   
   return (
-    <Animatable.View animation='slideInDown' style={viewStyle} >
+    <Animatable.View animation='slideInDown' style={viewStyle}>
       <Text style={textStyle}>{props.headerText}</Text>
     </Animatable.View>
   );
